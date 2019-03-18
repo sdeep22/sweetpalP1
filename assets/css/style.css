@@ -1,0 +1,182 @@
+body {
+    background-image: url(../img/bob3.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: black;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+.menubar {
+  overflow: hidden;
+  background-color: grey;
+    position: relative;
+    margin-bottom: 0%
+}
+
+.menubar a {
+  float: left;
+  color: #fff;
+  text-align: right;
+  width: 10%;
+  padding: 13px 18px;
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+  display: block;
+
+}
+#log{
+    
+    margin-left: 15%;
+    position: relative;
+}
+
+
+
+.menubar a:hover {
+    background-position: center center;
+    color: #1BACD4;
+}
+
+.menubar a.active {
+  background-color:#15AED5;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 0%;
+    font-size: 90px;
+    position:sticky;
+    display:inline-flex;
+    color:#fff;
+	text-align: center;
+    text-shadow: 0 0 40px #1BACD4, 4px 0px 1px rgba(89,211,43,0);
+}
+
+
+   h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:0%;
+    margin-left:25%;
+    padding: 0%;
+    font-size: 45px;
+    display:;
+    color:#fff;
+	text-align:center;
+    text-shadow: 0 0 40px #1BACD4, 4px 0px 1px rgba(89,211,43,0);
+} 
+
+.boxcontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/*clearing float action*/
+
+.boxcontainer: after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*column parameters*/
+
+.box {
+    width: 50%;
+}
+
+/*paragraph text color*/
+
+p {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*page information*/
+
+#para1,
+#para2 {
+    padding: 80px 80px;
+    font-size: 30px;
+    
+}
+
+/*HOME PAGE img1*/
+
+#img1 {
+    background: url(../img/office.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+    height: 500px;
+    width: 600px;
+    border-radius: 12%;
+    margin-left: 8%
+    
+}
+
+/*HOME PAGE secondimg*/
+
+#secondimg {
+    background: url(../img/comp.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+    height: 500px;
+    width: 600px;
+    border-radius: 12%;
+    margin-left: 2.5%
+}
+    
+/*logo bottom*/
+#spweb{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*contact page img*/
+#conIm {
+    padding-top: 500px;
+}
+
+/*information on about page*/
+
+#aboutP {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btmpara{
+    padding: 80px 80px;
+    font-size: 30px;
+}
+#p1
+ {
+    padding: 50px 198px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color:#11ABC7;
+    background-size: cover; 
+    background-position: center center;
+    
+}
+#p2{
+    padding: 50px 198px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color:gray;
+    background-size: cover;
+    background-position: center center;
+}
+form { 
+margin: 0 auto; 
+width:250px;
+
+}
